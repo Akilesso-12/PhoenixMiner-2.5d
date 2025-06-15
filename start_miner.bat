@@ -12,6 +12,6 @@ REM setx GPU_MAX_ALLOC_PERCENT 100
 REM setx GPU_SINGLE_ALLOC_PERCENT 100
 
 REM Replace the ETH address with your own ETH wallet address in the -wal option (Rig001 is the name of the rig)
-PhoenixMiner.exe -pool stratum+tcp://sha256.poolbinance.com:443 -wal 0x9b6d456be076b87a6bd724f68becc4f1710301f4.TEAMJR.001
+PhoenixMiner.exe -pool stratum+tcp://sha256.poolbinance.com:443 -wal TEAMJR.001.default -log
 pause
 
